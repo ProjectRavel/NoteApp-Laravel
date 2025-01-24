@@ -6,8 +6,8 @@
 
 ## 📸 Preview
 
-### Login Page
-![Login Page](public/preview-noteapp.png)
+### Note App
+![Note App](public/preview-noteapp.png)
 
 ### Dashboard with Notes List
 ![Dashboard](public/preview-dashboard.png)
