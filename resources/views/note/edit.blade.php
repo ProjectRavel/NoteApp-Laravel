@@ -1,6 +1,6 @@
 <x-app-layout>
     <div x-data="{ darkMode: window.matchMedia('(prefers-color-scheme: dark)').matches }" @mediachange.window="darkMode = event.matches"
-        class="max-w-6xl mx-auto w-full shadow-lg rounded-lg py-8 min-h-screen">
+        class="max-w-6xl mx-auto w-full rounded-lg py-8 min-h-screen">
         <div>
             <h1 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Edit Note</h1>
             <form action="{{ route('note.update', $note) }}" method="POST" class="space-y-6">
